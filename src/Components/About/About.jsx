@@ -11,7 +11,7 @@ const About = () => {
                     <Box className={styles.infoBox}>
                         <h2>About Me</h2>
                         <p>
-                            <strong>Hi,</strong> My name is <strong>Hari Kishore.</strong> I
+                            <strong>Hi,</strong> My name is <strong>Hari Kishore Reddy.</strong> I
                             am a <strong>Full Stack web-developer</strong> graduated from <strong>Masai school</strong> and
                             looking for a career opurtunity to be part of great projects. 
                         </p>
