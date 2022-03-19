@@ -71,15 +71,7 @@ const Contact = () => {
                             Email
                         </a>
                     </Button>
-                    <Button
-                        variant="contained"
-                        color="secondary"
-                        startIcon={< FileCopyIcon/>}
-                    >
-                        <a href={Resume} className={styles.dTag} download>
-                            Resume  
-                        </a>      
-                    </Button>             
+                              
                 </Box>
                 <Box className={styles.inputBox}>
                     <form onSubmit={handleSubmit}>

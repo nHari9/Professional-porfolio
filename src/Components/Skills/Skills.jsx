@@ -10,13 +10,17 @@ const Skills = () => {
             <h2 className={styles.skillsTitle}>Skills</h2>
             <Box className={styles.rightBox}>
                 {
-                    imgData.map(el => (
-                        <Box className={styles.iconBox}>
-                            <img className={styles.img} src={el} alt="HTML"/>
+                    imgData.map(el => {
+                        return <Box className={styles.iconBox}>
+                            {/* <img className={styles.img} src={} alt="HTML"/> */}
+                             <>{el}</>
                         </Box>
-                    ))
+                        // return <>{el}</>
+                        
+                    })
                 }
             </Box>
+            
         </Container>
     )
 }

@@ -6,6 +6,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 import styles from "../Projects/Projects.module.css";
 import projectData from "../Data/ProjectData.json"
+import { SiHtml5,SiCss3,SiJavascript,SiReact,SiRedux,SiStyledcomponents,
+    SiMongodb,SiExpress,SiGithub,SiPostman,} from "react-icons/si";
 
 const Projects = () => {
 

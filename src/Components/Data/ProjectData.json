@@ -1,46 +1,46 @@
 [
     {
         "id": 1,
-        "img": "https://raw.githubusercontent.com/Vinesh3124/pepperfry_clone/master/Frontend/src/Images/LandingPage.png",
+        "img": "https://github.com/nHari9/images/blob/main/Travelocity.png?raw=true",
         "name": "Travelocity (clone)",
         "desc": "Travelocity.com is an online travel agency owned by Expedia Group. It has 12.4 million unique visitors and 91 million page views, making it the third most popular website owned by Expedia Group, after Expedia.com and Hotels.com.",
         "github": "https://github.com/nHari9/travelocity-clone",
         "link": "https://cloneoftravelocity.netlify.app/",
         "tech":[
-            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+            "https://github.com/nHari9/images/blob/main/html-css-js.png?raw=true"
         ]
     },
     {
         "id": 2,
-        "img": "https://github.com/Shubhamsharma585/Shine-masai/blob/main/public/Snapshots/landingPage.jpg?raw=true",
+        "img": "https://github.com/nHari9/images/blob/main/Reliancedigital.png?raw=true",
         "name": "Reliance Digital (clone)",
         "desc": "We have tried to clone this e-commerce website Reliance Digital. We have made this project in the construct week of Unit-3 and used the tech stack js, html, css and json.",
         "github": "https://github.com/iamrituyadav/Reliance_digital",
         "link": "https://reliance-digital-clone.herokuapp.com/",
         "tech":[
-            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+            "https://github.com/nHari9/images/blob/main/mern-stack.png?raw=true"
         ]
     },
     {
         "id": 3,
-        "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1612854799247/LGOlirZCY.png?auto=compress,format&format=webp",
+        "img": "https://github.com/nHari9/images/blob/main/Reliancedigital.png?raw=true",
         "name": "Reliance Digital (clone)",
         "desc": "This is the clone of Reliance Digital website, built as a part of a project week. The website's front end had been built before and the objective this time was to integrate a backend with express and MongoDB.",
         "github": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
         "link": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
         "tech":[
-            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+            "https://github.com/nHari9/images/blob/main/mern-stack.png?raw=true"
         ]
     },
     {
         "id": 4,
-        "img": "https://raw.githubusercontent.com/Vinesh3124/Kosi_bathandbodyworks/main/Readme%20img/homepage1.png",
+        "img": "https://github.com/nHari9/images/blob/main/Reliancedigital.png?raw=true",
         "name": "Bath & Body Works (clone)",
         "desc": "Bath & Body Works is one of the world's leading specialty retailers and home to America's Favorite Fragrances",
-        "github": "https://github.com/Vinesh3124/Kosi_bathandbodyworks",
-        "link": "https://nifty-heyrovsky-71ed2c.netlify.app/index.html",
+        "github": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
+        "link": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
         "tech":[
-            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+            "https://github.com/nHari9/images/blob/main/mern-stack.png?raw=true"
         ]
     }
 ]
