@@ -1,7 +1,7 @@
 .contain{
     height: 100vh;
-    border: 1px solid black;
-    /* background-image: url("https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/36134145/3b50e159f6b0483838c3eaab082bc325baf4ca5f.gif"); */
+    border: 0.1px solid rgb(226, 229, 235);
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSAsF8cJfPaJAMZ8GD4CZrh2ApVbaNObO2A&usqp=CAU"); 
     background-color: rgb(73, 156, 73);
     background-position: center;
     background-repeat: no-repeat;

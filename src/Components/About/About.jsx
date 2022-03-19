@@ -16,7 +16,7 @@ const About = () => {
                         <p>
                             <strong>Hi,</strong> My name is <strong>Hari Kishore Reddy.</strong> I
                             am a <strong>Full Stack web-developer</strong> graduated from <strong>Masai school</strong> and
-                            looking for a career opurtunity to be part of great projects. 
+                            looking for a career opportunity to be part of great projects. 
                             I am from <strong>Kurnool, Andhra Pradesh</strong> and I've completed my <strong>Bachelor's in Mechanical Engineering.</strong> I've 
                             3+ years of working experience in BPO's.
                         </p>
