@@ -10,28 +10,54 @@
 // import mongoose_logo from "../Images/mongoose_logo.png"
 // import github_logo from "../Images/github.png"
 // import nodejs_logo from "../Images/nodejs.png"
-import { SiHtml5,SiCss3,SiJavascript,SiReact,SiRedux,SiStyledcomponents,
-    SiMongodb,SiExpress,SiGithub,SiPostman,} from "react-icons/si";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiRedux,
+  SiStyledcomponents,
+  SiMongodb,
+  SiExpress,
+  SiGithub,
+  SiPostman,
+  SiHeroku,
+  SiNetlify,
+} from "react-icons/si";
 
 const iconSize = {
-    width:"100px",
-    height:"100px"
-}
+  width: "95px",
+  height: "95px",
+};
 
 const imgData = [
-    <SiHtml5 style={iconSize}/>,
-    <SiCss3 style={iconSize}/>,
-    <SiJavascript style={iconSize}/>,
-    <SiRedux style={iconSize}/>,
-    <SiStyledcomponents style={iconSize}/>,
-    <SiMongodb style={iconSize}/>,
-    <SiExpress style={iconSize}/>,
-    <SiReact style={iconSize}/>,
-    <SiGithub style={iconSize}/>,
-    <SiPostman style={iconSize}/>,
-    // <SiNodejs style={iconSize}/>,
-    // <SiCss3 style={iconSize}/>
-   
-]
+  <SiHtml5 style={iconSize} />,
+  <SiCss3 style={iconSize} />,
+  <SiJavascript style={iconSize} />,
+  <SiRedux style={iconSize} />,
+  <SiStyledcomponents style={iconSize} />,
+  <SiMongodb style={iconSize} />,
+  <SiExpress style={iconSize} />,
+  <SiReact style={iconSize} />,
+  <SiGithub style={iconSize} />,
+  <SiPostman style={iconSize} />,
+  <SiHeroku style={iconSize} />,
+  <SiNetlify style={iconSize} />,
+];
 
-export {imgData}
+const imgname = [
+  "Html5",
+  "Css3",
+  "Javascript",
+  "Redux",
+  "Styledcomponents",
+  "Mongodb",
+  "Express",
+  "React",
+  "Github",
+  "Postman",
+  "Heroku",
+  "Netlify",
+];
+
+export { imgData, imgname };

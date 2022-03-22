@@ -10,8 +10,9 @@ import { SiHtml5,SiCss3,SiJavascript,SiReact,SiRedux,SiStyledcomponents,
     SiMongodb,SiExpress,SiGithub,SiPostman,} from "react-icons/si";
 
     const size={
-        width:"48px",
-        height:"48px"
+        width:"45px",
+        height:"45px",
+        margin:"5px",
     }
 
 const Projects = () => {

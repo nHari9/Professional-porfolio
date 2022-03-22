@@ -1,8 +1,8 @@
 .contain{
     height: 100vh;
     border: 0.1px solid rgb(226, 229, 235);
-     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSAsF8cJfPaJAMZ8GD4CZrh2ApVbaNObO2A&usqp=CAU"); 
-    background-color: rgb(73, 156, 73);
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSAsF8cJfPaJAMZ8GD4CZrh2ApVbaNObO2A&usqp=CAU");  */
+    background-color: rgb(26, 199, 26);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

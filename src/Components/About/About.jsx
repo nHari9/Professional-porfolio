@@ -10,7 +10,7 @@ const About = () => {
     return (
         <Container id="about" maxWidth="xl" className={styles.home}>
             <Box className={styles.mainBox}>
-                <Box className={styles.leftBox}>
+                {/* <Box className={styles.leftBox}> */}
                     <Box className={styles.infoBox}>
                         <h2>About Me</h2>
                         <p>
@@ -24,17 +24,18 @@ const About = () => {
                             I am interested in creating well designed or pixel-perfect Frontend with functionality and take on new 
                             challenges where I can learn more about web technologies.
                         </p>
+
                         <Button
                         variant="contained"
-                        color="secondary"
-                        startIcon={< FileCopyIcon/>}
-                    >
+                        color="primary"
+                        startIcon={< FileCopyIcon/>}>
+
                         <a href={Resume}  download>
                             Resume  
                         </a>      
                     </Button>  
                     </Box>
-                </Box>
+                {/* </Box> */}
             </Box>
         </Container>
     )
