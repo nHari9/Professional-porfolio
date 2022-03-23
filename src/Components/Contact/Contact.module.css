@@ -40,6 +40,28 @@
     width: 50%;
 }
 
+#name{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#email{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#descp{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+#submit{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
     .main{

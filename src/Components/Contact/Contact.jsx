@@ -83,13 +83,13 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail}>
             
-            <input className="emailBox"  type="text" name="user_name" placeholder="Name"/><br />
+            <input  id="name" type="text" name="user_name" placeholder="Name"/><br />
             
-            <input  className="emailBox" type="email" name="user_email" placeholder="Email" /><br />
+            <input id="email"  type="email" name="user_email" placeholder="Email" /><br />
             
-            <textarea className="descrip" name="message" placeholder="Description"/><br />
+            <textarea  id="descp" name="message" placeholder="Description"/><br />
 
-            <input  className="submitButton" type="submit" value="Send" /><br />
+            <input id="submit" type="submit" value="Send" /><br />
 
             </form>
 

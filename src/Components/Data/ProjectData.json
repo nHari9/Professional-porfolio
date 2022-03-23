@@ -30,16 +30,16 @@
         "name": "Reliance Digital (clone)",
         "desc": "This is the clone of Reliance Digital website, built as a part of a project week. The website's front end had been built before and the objective this time was to integrate a backend with express and MongoDB.",
         "github": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
-        "link": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
+        "link": "https://reliance-digital-clone.herokuapp.com/",
         "tech":[
             "https://github.com/nHari9/images/blob/main/mern-stack.png?raw=true"
         ]
     },
     {
         "id": 4,
-        "img": "https://github.com/nHari9/images/blob/main/Reliancedigital.png?raw=true",
-        "name": "Bath & Body Works (clone)",
-        "desc": "Bath & Body Works is one of the world's leading specialty retailers and home to America's Favorite Fragrances",
+        "img": "",
+        "name": "unit 5 project",
+        "desc": "lorem ipsum",
         "github": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
         "link": "https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-",
         "tech":[
