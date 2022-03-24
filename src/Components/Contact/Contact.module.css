@@ -40,27 +40,30 @@
     width: 50%;
 }
 
-#name{
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
+.name{
+    width: 100%;
+    margin-bottom: 5%;
 }
 
-#email{
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
+.email{
+    width: 100%;  
+    margin-bottom: 5%;
 }
 
-#descp{
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
+.descp{
+    width: 100%; 
+    margin-bottom: 5%;
 }
-#submit{
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
+.submit{
+    width: 50%;
+    height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
@@ -89,11 +92,11 @@
         margin-bottom: 5%;
     }
 
-    .inputBox{
+    /* .inputBox{
         width: 90%;
         margin: auto;
         margin-top: 5%;
-    }
+    } */
 
     .linksBox>button{
         margin-top: 2%;

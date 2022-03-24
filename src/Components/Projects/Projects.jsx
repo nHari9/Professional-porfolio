@@ -41,7 +41,6 @@ const Projects = () => {
                                 <p>{el.desc}</p>
                             </Box>
                             <Box className={styles.projectCardStack}>
-                                {/* <img src={el.tech[0]} className={styles.logoImg} alt="stack" /> */}
                                 <SiHtml5 style={size}/> <SiCss3 style={size}/>
                                 <SiJavascript style={size}/><SiReact style={size}/><SiExpress style={size}/>
                             </Box>

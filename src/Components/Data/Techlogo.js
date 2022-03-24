@@ -43,6 +43,7 @@ const imgData = [
   <SiPostman style={iconSize} />,
   <SiHeroku style={iconSize} />,
   <SiNetlify style={iconSize} />,
+  
 ];
 
 const imgname = [
@@ -59,5 +60,6 @@ const imgname = [
   "Heroku",
   "Netlify",
 ];
+
 
 export { imgData, imgname };
