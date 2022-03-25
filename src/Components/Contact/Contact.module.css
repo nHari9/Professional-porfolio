@@ -1,5 +1,5 @@
 .main{
-    border: 1px solid white;
+   
     height: 100vh;
     font-family: 'Roboto Slab', serif;
 }
@@ -8,15 +8,18 @@
     margin-top: 10%;
     height: 50px;
     text-align: center;
+    
 }
 
 .title>span{
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;
+    
 }
 
 .infoContainer{
+    
     display: flex;
     width: 70%;
     margin: auto;
@@ -24,6 +27,7 @@
 }
 
 .linksBox{
+    
     width: 50%;
     margin-left: 5%;
     display: flex;
@@ -40,19 +44,24 @@
     width: 50%;
 }
 
+.inputBox{
+    width: 50%;
+    margin-left: 5%;    
+}
 .name{
-    width: 100%;
-    margin-bottom: 5%;
+    width: 60%;
+    margin-bottom: 2%;
 }
 
 .email{
-    width: 100%;  
-    margin-bottom: 5%;
+    width: 60%;  
+    margin-bottom: 2%;
 }
 
-.descp{
-    width: 100%; 
-    margin-bottom: 5%;
+.desc{
+    width: 60%; 
+    height: 100px;
+    margin-bottom: 2%;
 }
 .submit{
     width: 50%;
@@ -92,11 +101,11 @@
         margin-bottom: 5%;
     }
 
-    /* .inputBox{
+    .inputBox{
         width: 90%;
         margin: auto;
         margin-top: 5%;
-    } */
+    }
 
     .linksBox>button{
         margin-top: 2%;

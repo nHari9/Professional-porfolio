@@ -4,17 +4,22 @@
     background-color: white;
     font-family: 'Roboto Slab', serif;
     border: 1px solid white;
+    
 }
 
 .infoBox{
-    margin-top: 1%;
-    height: 80vh;
+    margin-top: 1px;
+    height: 100%;
     width: 60%;
     margin-left: 20%;
     text-align: center;
+    margin-bottom: 20%;
+    border: 1px solid white;
+    
 }
 
 .infoBox>h2{
+   
     font-size: 45px;
     word-spacing: 5px;
     letter-spacing: 5px;
@@ -30,6 +35,8 @@
     .home{
         height: auto;
         background-color: white;
+        font-family: 'Roboto Slab', serif;
+        border: 1px solid white;
     }
     .mainBox{
         width: 100%;

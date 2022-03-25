@@ -26,8 +26,8 @@ import {
 } from "react-icons/si";
 
 const iconSize = {
-  width: "95px",
-  height: "95px",
+  width: "70px",
+  height: "70px",
 };
 
 const imgData = [

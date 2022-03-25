@@ -68,15 +68,10 @@ const Contact = () => {
             variant="contained"
             color="secondary"
             startIcon={<EmailIcon />}
+            onClick={() => newTab("https://mail.google.com/mail/u/0/?fs=1&to=nharikishorereddy9@gmail.com&tf=cm")}
           >
-            <a
-              href="nharikishorereddy9@gmail.com"
-              className={styles.dTag}
-              download
-            >
-              Email
-            </a>
-          </Button>
+            
+            Email</Button>
           
           <Button
             variant="contained"
