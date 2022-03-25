@@ -31,35 +31,60 @@ const iconSize = {
 };
 
 const imgData = [
-  <SiHtml5 style={iconSize} />,
-  <SiCss3 style={iconSize} />,
-  <SiJavascript style={iconSize} />,
-  <SiRedux style={iconSize} />,
-  <SiStyledcomponents style={iconSize} />,
-  <SiMongodb style={iconSize} />,
-  <SiExpress style={iconSize} />,
-  <SiReact style={iconSize} />,
-  <SiGithub style={iconSize} />,
-  <SiPostman style={iconSize} />,
-  <SiHeroku style={iconSize} />,
-  <SiNetlify style={iconSize} />,
+
+  {
+    icon:<SiHtml5 style={iconSize} />,
+    text:"Html5"
+  },
+  {
+    icon:<SiCss3 style={iconSize} />,
+    text:"Css3"
+  },
+  {
+    icon:<SiJavascript style={iconSize} />,
+    text:"Javascript"
+  },
+  {
+    icon:<SiRedux style={iconSize} />,
+    text:"Redux"
+  },
+  {
+    icon:<SiStyledcomponents style={iconSize} />,
+    text:"Styledcomponents"
+  },
+  {
+    icon:<SiMongodb style={iconSize} />,
+    text:"Mongodb"
+  },
+  {
+    icon:<SiExpress style={iconSize} />,
+    text:"Express"
+  },
+  {
+    icon:<SiReact style={iconSize} />,
+    text:"React"
+  },
+  {
+    icon:<SiGithub style={iconSize} />,
+    text:"Github"
+  },
+  {
+    icon:<SiPostman style={iconSize} />,
+    text:"Postman"
+  },
+  {
+    icon:<SiHeroku style={iconSize} />,
+    text:"Heroku"
+  },
+  {
+    icon:<SiNetlify style={iconSize} />,
+    text:"Netlify"
+  }
+  
   
 ];
 
-const imgname = [
-  "Html5",
-  "Css3",
-  "Javascript",
-  "Redux",
-  "Styledcomponents",
-  "Mongodb",
-  "Express",
-  "React",
-  "Github",
-  "Postman",
-  "Heroku",
-  "Netlify",
-];
 
 
-export { imgData, imgname };
+
+export { imgData };

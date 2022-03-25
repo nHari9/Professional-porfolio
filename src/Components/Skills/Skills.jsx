@@ -12,7 +12,9 @@ const Skills = () => {
         {imgData.map((el) => {
           return (
             <Box className={styles.iconBox}>
-              <>{el}</>
+              <>{el.icon}</>
+              <br></br>
+              <div>{el.text}</div>
             </Box>
           );
         })}
