@@ -12,9 +12,9 @@ const Portfolio = () => {
             <div className={styles.badge}>
                 <img style={{width: "250px", height: "250px", borderRadius: "50%"}} alt="Hari Kishore Reddy" src={profilepic}/>
             </div>
-            <Box className={styles.name}>
+            <div className={styles.name}>
                 <h2>Hari Kishore</h2>
-            </Box>
+            </div>
             <Box className={styles.typebox}>
                 <h2>
                 <Typewriter
@@ -34,7 +34,7 @@ const Portfolio = () => {
                     />
                 </h2>
             </Box>
-            <Box className={styles.name}>
+            <Box className={styles.desc}>
                 <p>Full Stack Developer with a passion for development and excited to be at the deployment phase of my 
                     career as a web developer. Proficient in Frontend technology as well as in backend technology.
                 </p>

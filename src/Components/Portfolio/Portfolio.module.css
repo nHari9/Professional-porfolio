@@ -1,7 +1,6 @@
 .contain{
     height: 100vh;
     border: 0.1px solid rgb(226, 229, 235);
-     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSAsF8cJfPaJAMZ8GD4CZrh2ApVbaNObO2A&usqp=CAU");  */
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,42 +8,37 @@
     position: relative;
     font-family: 'Roboto Slab', serif;
 }
-
-.containhome{
-    height: 100vh;
-   
-}
-
+/* 
 .badge{
-    width: 30%;
-    height: 40%;
+    border: 1px solid black;
+} */
+img{
     margin: auto;
-    margin-top: 7%;
-    /* border: 1px solid white; */
-    border-radius: 50%;
-    
 }
 
 .name{
     width: 50%;
     height: 5vh;
     margin: auto;
-    
-    
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 50px;
 }
 
-.name>h2{
+/* .name>h2{
     color: rgb(24, 10, 10);
     margin: auto;
     text-align: center;
     font-size: 40px;
     letter-spacing: 5px;
-    margin-top: 20%;
+    border: 1px solid black;  
     
-}
+} */
 
-.name>p{
+.desc{
     color: rgb(24, 10, 10);
+    width: 50%;
     margin: auto;
     text-align: center;
     letter-spacing: 3px;
