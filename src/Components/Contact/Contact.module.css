@@ -46,25 +46,36 @@
 
 .inputBox{
     width: 50%;
-    margin-left: 5%;    
+    margin-left: 5%;   
+     
 }
+
 .name{
     width: 60%;
     margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid crimson;
 }
 
 .email{
     width: 60%;  
     margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid crimson;
 }
 
 .desc{
     width: 60%; 
     height: 100px;
     margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid crimson;
 }
 .submit{
-    width: 50%;
+    width: 25%;
     height: 30px;
         border: none;
         border-radius: 5px;

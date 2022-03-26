@@ -4,9 +4,12 @@ import Button from "@material-ui/core/Button";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
+import LocationOn from "@material-ui/icons/LocationOn";
+import Phone from "@material-ui/icons/Phone";
 import styles from "../Contact/Contact.module.css";
 import React,{ useRef } from "react";
 import emailjs from "@emailjs/browser";
+
 
 
 const Contact = () => {
@@ -76,13 +79,26 @@ const Contact = () => {
           <Button
             variant="contained"
             color="secondary"
-            
+            startIcon={<LocationOn/>}
             onClick={() =>
               newTab("https://www.google.com/maps/place/Kurnool,+Andhra+Pradesh/@15.8118414,78.0047825,13z/data=!3m1!4b1!4m5!3m4!1s0x3bb5ddf506b7c6c9:0x19a7ac74f858d6f2!8m2!3d15.8281257!4d78.0372792")
             }
           >
             Address
           </Button>
+
+          <Button
+            variant="contained"
+            color="secondary"
+            startIcon={<Phone/>}
+            onClick={() =>
+              newTab("tel:+91 9908603783")
+            }
+          >
+            Mobile
+          </Button>
+
+
         </Box>
 
 
@@ -90,11 +106,11 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail}>
             
-            <input  className={styles.name} type="text" name="user_name" placeholder="Name"/><br />
+            <input  className={styles.name} type="text" name="user_name" placeholder="Name" required/><br />
             
-            <input className={styles.email}  type="email" name="user_email" placeholder="Email" /><br />
+            <input className={styles.email}  type="email" name="user_email" placeholder="Email" required/><br />
             
-            <textarea  className={styles.desc} name="message" placeholder="Description"/><br />
+            <textarea  className={styles.desc} name="message" placeholder="Description" required/><br />
 
             <input className={styles.submit} type="submit" value="Send" /><br />
 

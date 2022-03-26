@@ -2,7 +2,7 @@
     height: 100vh;
     border: 0.1px solid rgb(226, 229, 235);
      /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSAsF8cJfPaJAMZ8GD4CZrh2ApVbaNObO2A&usqp=CAU");  */
-    background-color: rgb(26, 199, 26);
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,11 +15,11 @@
 }
 
 .badge{
-    width: 15%;
-    height: 30%;
+    width: 30%;
+    height: 40%;
     margin: auto;
     margin-top: 7%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 50%;
 }
 
@@ -65,7 +65,7 @@
         height: 20%;
         margin: auto;
         margin-top: 10%;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         border-radius: 50%;
     }
     .name{
@@ -102,7 +102,7 @@
         height: 18%;
         margin: auto;
         margin-top: 10%;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         border-radius: 50%;
     }
     .name{
@@ -132,7 +132,7 @@
         height: 25%;
         margin: auto;
         margin-top: 10%;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         border-radius: 50%;
     }
     .typebox{
@@ -156,7 +156,7 @@
         height: 30%;
         margin: auto;
         margin-top: 6%;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         border-radius: 50%;
     }
 }

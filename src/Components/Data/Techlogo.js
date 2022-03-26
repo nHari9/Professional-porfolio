@@ -34,15 +34,15 @@ const imgData = [
 
   {
     icon:<SiHtml5 style={iconSize} />,
-    text:"Html5"
+    text:"HTML5"
   },
   {
     icon:<SiCss3 style={iconSize} />,
-    text:"Css3"
+    text:"CSS3"
   },
   {
     icon:<SiJavascript style={iconSize} />,
-    text:"Javascript"
+    text:"JavaScript"
   },
   {
     icon:<SiRedux style={iconSize} />,
@@ -50,11 +50,11 @@ const imgData = [
   },
   {
     icon:<SiStyledcomponents style={iconSize} />,
-    text:"Styledcomponents"
+    text:"Styled Components"
   },
   {
     icon:<SiMongodb style={iconSize} />,
-    text:"Mongodb"
+    text:"MongoDB"
   },
   {
     icon:<SiExpress style={iconSize} />,
@@ -66,7 +66,7 @@ const imgData = [
   },
   {
     icon:<SiGithub style={iconSize} />,
-    text:"Github"
+    text:"GitHub"
   },
   {
     icon:<SiPostman style={iconSize} />,
