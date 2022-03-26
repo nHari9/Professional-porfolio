@@ -60,8 +60,8 @@ const DrawerNav = () => {
         </Link>
         <Divider />
         <Link onClick={toggleDrawer(anchor, false)} to="skills" spy={true} smooth={true}>
-            <List>
-                <ListItem>
+            <List >
+                <ListItem >
                     <ListItemText primary="Skills" />
                 </ListItem>
             </List>
@@ -75,13 +75,6 @@ const DrawerNav = () => {
             </List>
         </Link>    
         <Divider />
-        {/* <Link onClick={toggleDrawer(anchor, false)} to="blogs" spy={true} smooth={true}>
-            <List>
-                <ListItem>
-                    <ListItemText primary="Blogs" />
-                </ListItem>
-            </List>
-        </Link>  */}
         <Divider />
         <Link onClick={toggleDrawer(anchor, false)} to="contact" spy={true} smooth={true}>
             <List>

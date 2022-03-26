@@ -12,6 +12,7 @@
 
 .containhome{
     height: 100vh;
+   
 }
 
 .badge{
@@ -21,13 +22,15 @@
     margin-top: 7%;
     /* border: 1px solid white; */
     border-radius: 50%;
+    
 }
 
 .name{
     width: 50%;
     height: 5vh;
     margin: auto;
-    margin-top: 2%;
+    
+    
 }
 
 .name>h2{
@@ -36,6 +39,8 @@
     text-align: center;
     font-size: 40px;
     letter-spacing: 5px;
+    margin-top: 20%;
+    
 }
 
 .name>p{
@@ -43,6 +48,8 @@
     margin: auto;
     text-align: center;
     letter-spacing: 3px;
+    font-weight:600 ;
+    margin-top: 3%;
 }
 
 .typebox{
@@ -72,7 +79,7 @@
         width: 80%;
         height: 5vh;
         margin: auto;
-        margin-top: 2%;
+        margin-top: 5%;
     }
     .name>h2{
         color: rgb(24, 10, 10);
