@@ -3,7 +3,7 @@ import styles from "./About.module.css"
 import Container from '@material-ui/core/Container';
 import { Box } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
-import Resume from "../Data/fw14_235_hari.pdf"
+import Resume from "../Data/Professional Resume.pdf"
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 
 const About = () => {
