@@ -1,0 +1,5 @@
+let one=1;
+function sayhi(one , the){
+console.log(one,two)
+}
+
